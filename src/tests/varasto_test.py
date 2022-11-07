@@ -4,8 +4,8 @@ from varasto import Varasto
 
 class TestVarasto(unittest.TestCase):
     def setUp(self):
-        self.varasto = Varasto(10)
-        self.tester = Varasto(-1,-2)
+        #self.varasto = Varasto(10)
+        #self.tester = Varasto(-1,-2)
 
     def test_negatiivinen_poisto(self):
         self.assertAlmostEqual(self.varasto.ota_varastosta(-1),0)
