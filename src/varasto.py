@@ -16,7 +16,7 @@ class Varasto:
     def set_tila(self,tila):
         if tila > 0.0:
             return tila
-        return 0.0
+        return 
     def paljonko_mahtuu(self):
         return self.tilavuus - self.saldo
 
