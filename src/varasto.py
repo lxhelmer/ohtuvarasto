@@ -11,7 +11,8 @@ class Varasto:
             # täyteen ja ylimäärä hukkaan!
             self.saldo = tilavuus
 
-    # huom: ominaisuus voidaan myös laskea.Ei tarvita erillistä kenttää viela_tilaa tms.
+    # huom: ominaisuus voidaan myös laskea.
+    #Ei tarvita erillistä kenttää viela_tilaa tms.
     def set_tila(self,tila):
         if tila > 0.0:
             return tila
